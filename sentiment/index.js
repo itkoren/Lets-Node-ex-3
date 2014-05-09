@@ -24,16 +24,17 @@ function tokenize (input) {
  * @return {Object}
  */
 module.exports = function (term, callback) {
-	// Split line term to letters only words array
-	var words = tokenize(term || "");
-	var score = 0;
-	var word;
-	var rate;
-	var i;
 
 	// Include the AFINN Dictionary JSON asynchronously
 	require.async("./AFINN.json", function(afinn) {
-		console.log("LOADED!!!");
+
+        // Split line term to letters only words array
+        var words = tokenize(term || "");
+        var score = 0;
+        var word;
+        var rate;
+        var i;
+
 		// Iterate through the words
 		for (i = 0; i < words.length; i++) {
 			word = words[i];
