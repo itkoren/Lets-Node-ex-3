@@ -9,4 +9,4 @@ Please complete the following steps:
 3. Link the **"sentiment"** to the new TCP server and use it in the project
 
 #####Use the sentiment directory in this repository as a starting point for your sentiment module
-#####*You can also use the boilerplate server.js as a staring point for your server code*
+#####*You can also use the boilerplate server.js as a starting point for your server code*
