@@ -1,0 +1,21 @@
+{
+  "name": "sentiment-server",
+  "version": "0.0.1",
+  "description": "A server which uses \"sentiment\" module in order to perform sentiment analysis on the provided input \"term/s\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sentiment",
+    "analysis"
+  ],
+  "author": "Itai Koren (@itkoren)",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "dependencies": {
+      "sentiment":"0.0.x"
+  }
+}
