@@ -1,3 +1,3 @@
 [submodule "examples/package.json"]
 	path = examples/package.json
-	url = git@github.com:itkoren/Lets-Node-exp-package.json.git
+	url = https://github.com/itkoren/Lets-Node-exp-package.json.git
